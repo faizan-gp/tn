@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import {
-  Wheat, Milk, Leaf, Info, Flame, Star, Clock, Shield, Package, Sparkles, CheckCircle, ExternalLink,
-  Droplet, // For Fat
+  Wheat, Milk, Leaf, Info, Star, Clock, Shield, Package, Sparkles, CheckCircle, ExternalLink,
   Award, // For Perfectly Crispy
   Zap,   // For Add-ons / Dips
 } from 'lucide-react';
@@ -617,7 +616,7 @@ export default function OnionRingsPreviewPage() {
               <div className="space-y-3">
                  <div className="flex items-start gap-3"><div className="w-8 h-8 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">1</div><div><div className="font-semibold text-slate-900">Air Fryer</div><div className="text-sm text-slate-600">3–4 mins at 375°F / 190°C</div></div></div>
                 <div className="flex items-start gap-3"><div className="w-8 h-8 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">2</div><div><div className="font-semibold text-slate-900">Oven</div><div className="text-sm text-slate-600">6–8 mins at 425°F / 220°C on a rack</div></div></div>
-                <div className="flex items-start gap-3"><div className="w-8 h-8 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">3</div><div><div className="font-semibold text-slate-900">Pro Tip</div><div className="text-sm text-slate-600">Don't overcrowd the basket/tray for max crispiness</div></div></div>
+                <div className="flex items-start gap-3"><div className="w-8 h-8 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">3</div><div><div className="font-semibold text-slate-900">Pro Tip</div><div className="text-sm text-slate-600">Don&apos;t overcrowd the basket/tray for max crispiness</div></div></div>
               </div>
             </div>
           </div>
@@ -687,7 +686,7 @@ export default function OnionRingsPreviewPage() {
                 </table>
               </div>
 
-              <p className="mt-3 text-xs text-gray-500">Values are estimates for base rings; dips and 'extra crunchy' option will increase values.</p>
+              <p className="mt-3 text-xs text-gray-500">Values are estimates for base rings; dips and &apos;extra crunchy&apos; option will increase values.</p>
             </article>
 
             {/* Allergens */}

@@ -1,6 +1,6 @@
 
 
-import { ArrowRight, EggFried, Drumstick, ShoppingBasket, GlassWater } from 'lucide-react'; // Make sure to install lucide-react
+import { EggFried, Drumstick, ShoppingBasket, GlassWater } from 'lucide-react'; // Make sure to install lucide-react
 
 // --- Menu Data Object ---
 const menuData = {

@@ -5,8 +5,6 @@ import {
   Droplet, // For Fat
   Award, // For Crowd Pleaser
   Zap,   // For Add-ons / Drizzles
-  Flame, // For Heat level
-  AlertTriangle, // For Allergens
   Drumstick, // For Protein add-ons
 } from 'lucide-react';
 import { Playfair_Display, Inter } from 'next/font/google';

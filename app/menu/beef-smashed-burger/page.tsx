@@ -2,10 +2,8 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 import {
   Wheat, Milk, Leaf, Info, Star, Clock, Shield, Package, Sparkles, CheckCircle, ExternalLink,
-  Droplet, // For Fat
   Award, // For Flavor/Quality
   Zap,   // For Add-ons
-  Flame, // For Heat level (can be used for 'flavor intensity' or removed if not applicable)
   AlertTriangle, // For Allergens
 } from 'lucide-react';
 import { Playfair_Display, Inter } from 'next/font/google';

@@ -3,9 +3,6 @@ import type { Metadata } from 'next';
 import {
   Wheat, Milk, Leaf, Info, Flame, Star, Clock, Shield, Package, Sparkles, CheckCircle, ExternalLink,
   Zap, // Using Zap for "Customize" or "Protein"
-  Award, // For Trust Signal / Quality
-  Droplet, // For Fat
-  Drumstick, // Assuming for Protein stat/add-on
 } from 'lucide-react';
 import { Playfair_Display, Inter } from 'next/font/google';
 
@@ -678,7 +675,7 @@ export default function LoadedFriesPreviewPage() {
             <div>
               <h3 className="font-semibold text-slate-900 mb-4">Travel Test Results</h3>
               <p className="text-slate-700 mb-4">
-                We tested our packaging for 20 minutes in a delivery bag. Here's what happens:
+                We tested our packaging for 20 minutes in a delivery bag. Here&apos;s what happens:
               </p>
               <ul className="space-y-2 text-sm text-slate-700">
                 <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" /><span>Fries stay 85% crispy thanks to vented lid design</span></li>

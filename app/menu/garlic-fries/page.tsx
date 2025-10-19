@@ -2,8 +2,6 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 import {
   Wheat, Milk, Leaf, Info, Flame, Star, Clock, Shield, Package, Sparkles, CheckCircle, ExternalLink,
-  Droplet, // For Fat
-  Award, // For Fan Favorite
   Zap,   // For Add-ons
 } from 'lucide-react';
 import { Playfair_Display, Inter } from 'next/font/google';

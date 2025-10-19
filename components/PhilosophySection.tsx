@@ -18,7 +18,7 @@ export default function PhilosophySection() {
         From Our <span className="text-[#c8282d]">Sketchbook</span> to Your <span className="text-[#c8282d]">Table</span>
       </h2>
       <p className="font-inter mt-6 text-base sm:text-lg text-gray-700 leading-relaxed">
-        Tandoori Nook wasn't just built, it was discovered. This is the story of our expedition, straight from the pages where it all began.
+        Tandoori Nook wasn&apos;t just built, it was discovered. This is the story of our expedition, straight from the pages where it all began.
       </p>
     </div>
 
@@ -35,7 +35,7 @@ export default function PhilosophySection() {
                 <p className="font-playfair text-2xl text-yellow-700 font-bold">Chapter I</p>
                 <h3 className="font-playfair text-3xl sm:text-4xl font-bold text-gray-800 mt-2">The <span className='text-[#c8282d]'>Craving</span></h3>
                 <p className="font-inter mt-4 text-gray-700 leading-relaxed">
-                  It all started with a hunger, not just for food, but for something *more*. We looked around and saw a world of incredible street food, but the exciting, bold, Halal options we craved felt a world away. So, we asked a dangerous question: "What if we built it ourselves?"
+                  It all started with a hunger, not just for food, but for something *more*. We looked around and saw a world of incredible street food, but the exciting, bold, Halal options we craved felt a world away. So, we asked a dangerous question: &quot;What if we built it ourselves?&quot;
                 </p>
             </div>
         </div>
@@ -56,7 +56,7 @@ export default function PhilosophySection() {
                 <p className="font-playfair text-2xl text-yellow-700 font-bold">Chapter II</p>
                 <h3 className="font-playfair text-3xl sm:text-4xl font-bold text-gray-800 mt-2">The <span className='text-[#c8282d]'>Expedition</span></h3>
                 <p className="font-inter mt-4 text-gray-700 leading-relaxed">
-                  Our compass was simple: follow the flavor. We journeyed through recipes from bustling global markets, deconstructing what made them legendary. We then remixed those spices and techniques with the American classics we couldn't live without. The one non-negotiable rule on our map? **100% Halal.** It was our true north, guiding every decision.
+                  Our compass was simple: follow the flavor. We journeyed through recipes from bustling global markets, deconstructing what made them legendary. We then remixed those spices and techniques with the American classics we couldn&apos;t live without. The one non-negotiable rule on our map? **100% Halal.** It was our true north, guiding every decision.
                 </p>
             </div>
         </div>
@@ -75,7 +75,7 @@ export default function PhilosophySection() {
                 <p className="font-playfair text-2xl text-yellow-700 font-bold">Chapter III</p>
                 <h3 className="font-playfair text-3xl sm:text-4xl font-bold text-gray-800 mt-2">The <span className='text-[#c8282d]'>Craft</span></h3>
                 <p className="font-inter mt-4 text-gray-700 leading-relaxed">
-                  The final destination of our expedition is your plate. We believe the treasure we found should never sit under a heat lamp. Every order is a fresh start, a new creation crafted just for you. This isn't just fast food; it's food made with passion, served fresh and ridiculously delicious, every single time.
+                  The final destination of our expedition is your plate. We believe the treasure we found should never sit under a heat lamp. Every order is a fresh start, a new creation crafted just for you. This isn&apos;t just fast food; it&apos;s food made with passion, served fresh and ridiculously delicious, every single time.
                 </p>
             </div>
         </div>

@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import {
-  Wheat, Milk, Leaf, Info, Flame, Star, Clock, Shield, Package, Sparkles, CheckCircle, ExternalLink,
-  Droplet, // For Fat
+  Wheat, Milk, Leaf, Info, Star, Clock, Shield, Package, Sparkles, CheckCircle, ExternalLink,
   Award, // For Fan Favorite
   Zap,   // For Add-ons / Dips
 } from 'lucide-react';

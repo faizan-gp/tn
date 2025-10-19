@@ -4,8 +4,6 @@ import {
   Wheat, Milk, Leaf, Info, Flame, Star, Clock, Shield, Package, Sparkles, CheckCircle, ExternalLink,
   Drumstick, // For Protein
   AlertTriangle, // For Egg allergen
-  Award, // For Quality/Flavor
-  Zap, // For Add-ons
 } from 'lucide-react';
 import { Playfair_Display, Inter } from 'next/font/google';
 
@@ -706,7 +704,7 @@ export default function ChickenBurgerPreviewPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="font-semibold text-slate-900 mb-4">Travel Test Results</h3>
-              <p className="text-slate-700 mb-4">20-minute ride simulation. Here's what we learned:</p>
+              <p className="text-slate-700 mb-4">20-minute ride simulation. Here&apos;s what we learned:</p>
               <ul className="space-y-2 text-sm text-slate-700">
                 <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-green-600 mt-0.5" /><span>Bun stays toasty with vented wrap</span></li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-green-600 mt-0.5" /><span>Chicken stays crisp with foil separation</span></li>
@@ -788,7 +786,7 @@ export default function ChickenBurgerPreviewPage() {
                 </table>
               </div>
 
-              <p className="mt-3 text-xs text-gray-500">Values are estimates for 'Crispy' style on a 'Potato Bun'; customizations will change macros.</p>
+              <p className="mt-3 text-xs text-gray-500">Values are estimates for &apos;Crispy&apos; style on a &apos;Potato Bun&apos;; customizations will change macros.</p>
             </article>
 
             {/* Allergens */}

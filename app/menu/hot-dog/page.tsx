@@ -2,10 +2,8 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 import {
   Wheat, Milk, Leaf, Info, Flame, Star, Clock, Shield, Package, Sparkles, CheckCircle, ExternalLink,
-  Droplet, // For Fat
   Drumstick, // Using for Protein
   AlertTriangle, // For other allergens
-  Award, // For Fan Favorite
   Zap,   // For Add-ons / Dips
 } from 'lucide-react';
 import { Playfair_Display, Inter } from 'next/font/google';
@@ -765,7 +763,7 @@ export default function HotDogPreviewPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="font-semibold text-slate-900 mb-4">Travel Test Results</h3>
-              <p className="text-slate-700 mb-4">20-minute ride simulation. Here's what we learned:</p>
+              <p className="text-slate-700 mb-4">20-minute ride simulation. Here&apos;s what we learned:</p>
               <ul className="space-y-2 text-sm text-slate-700">
                 <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-green-600 mt-0.5" /><span>Buns stay plush in vented wrap</span></li>
                 <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-green-600 mt-0.5" /><span>Dogs keep snap with quick-vent packaging</span></li>
@@ -847,7 +845,7 @@ export default function HotDogPreviewPage() {
                 </table>
               </div>
 
-              <p className="mt-3 text-xs text-gray-500">Values are estimates for 'All-Beef' on 'Classic Bun'; customizations will change macros.</p>
+              <p className="mt-3 text-xs text-gray-500">Values are estimates for &apos;All-Beef&apos; on &apos;Classic Bun&apos;; customizations will change macros.</p>
             </article>
 
             {/* Allergens */}

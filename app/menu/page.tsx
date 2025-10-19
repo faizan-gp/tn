@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Playfair_Display, Inter } from 'next/font/google';
-import { Leaf, Flame, Wheat, CheckCircle, Info, GlassWater, LucideDiameter } from 'lucide-react'; // Import icons for tags
+import { Leaf, Flame, Wheat, CheckCircle, GlassWater, LucideDiameter } from 'lucide-react'; // Import icons for tags
 
 // Typography
 const display = Playfair_Display({ subsets: ['latin'], weight: ['700', '800', '900'] });

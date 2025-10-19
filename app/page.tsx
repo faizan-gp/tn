@@ -63,7 +63,7 @@ export default function HomePage() {
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
           <div className="reveal-on-scroll">
             <h2 className="font-playfair text-3xl sm:text-4xl font-bold text-gray-800 tracking-tight">Come Hang Out.</h2>
-            <p className="font-inter mt-4 text-base sm:text-lg text-gray-700">We're located in the heart of Webster. Stop by for dine-in or pickup.</p>
+            <p className="font-inter mt-4 text-base sm:text-lg text-gray-700">We&apos;re located in the heart of Webster. Stop by for dine-in or pickup.</p>
             <div className="font-inter mt-6 sm:mt-8 space-y-3 sm:space-y-4 text-base sm:text-lg text-gray-700">
               <p>
                 <strong>Address:</strong><br />

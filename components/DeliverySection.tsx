@@ -11,7 +11,7 @@ export default function DeliverySection() {
             Get Your Fix, Your Way.
           </h2>
           <p className="font-inter mt-4 text-lg text-slate-600 leading-relaxed">
-            Whether you're stopping by or staying in, we've made it easier than ever to enjoy your Tandoori Nook favorites. Hot, fresh, and ready when you are.
+            Whether you&apos;re stopping by or staying in, we&apos;ve made it easier than ever to enjoy your Tandoori Nook favorites. Hot, fresh, and ready when you are.
           </p>
         </div>
 

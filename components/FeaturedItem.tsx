@@ -86,7 +86,7 @@ export default function FeaturedItemsSection() {
             id="featured-heading"
             className="font-playfair text-[#c8282d] text-4xl md:text-5xl font-bold tracking-tight"
           >
-            Editor's Picks
+            Editor&apos;s Picks
           </h2>
           <p className="font-inter mt-3 text-slate-600">
             Three dishes that define the menu—tap a tab to view.

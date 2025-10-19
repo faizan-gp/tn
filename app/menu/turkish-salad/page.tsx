@@ -3,7 +3,6 @@ import type { Metadata } from 'next';
 import {
   Wheat, Milk, Leaf, Info, Star, Clock, Shield, Package, Sparkles, CheckCircle, ExternalLink,
   Droplet, // For Fat
-  Award, // For Vibrant & Fresh
   Zap,   // For Add-ons
   Drumstick, // For Protein add-on section
 } from 'lucide-react';

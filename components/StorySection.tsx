@@ -9,7 +9,7 @@ export default function OurStorySection() {
           {/* LEFT: Image */}
           <div className="lg:col-span-1">
             <Image
-              src="/our-story.webp"
+              src="/our-story.png"
               alt="The passionate waiter at Tandoori Nook holding a platter of food"
               width={800}
               height={900}
@@ -36,13 +36,13 @@ export default function OurStorySection() {
                   first-letter:text-6xl first-letter:font-bold first-letter:font-playfair 
                   first-letter:text-slate-900 first-letter:mr-3 first-letter:float-left
                 ">
-                  Tandoori Nook isn't just a restaurant; it's the answer to a question we kept asking ourselves: "Where can we get amazing, Halal fast food that actually tastes exciting?" We were tired of the same old options.
+                  Tandoori Nook isn&apos;t just a restaurant; it&apos;s the answer to a question we kept asking ourselves: &quot;Where can we get amazing, Halal fast food that actually tastes exciting?&quot; We were tired of the same old options.
                 </p>
                 <p>
                   So, we decided to build it ourselves. We took the flavors we loved from street carts and late-night spots around the world, brought them back home to Webster, and gave them our own American spin.
                 </p>
                 <p>
-                  We're a family-run spot, dedicated to serving our community food that’s made with passion and integrity. Whether you're feeding your family or grabbing a late-night bite, we're here for you.
+                  We&apos;re a family-run spot, dedicated to serving our community food that&apos;s made with passion and integrity. Whether you&apos;re feeding your family or grabbing a late-night bite, we&apos;re here for you.
                 </p>
               </div>
 

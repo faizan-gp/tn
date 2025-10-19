@@ -16,7 +16,7 @@ export default function HeroSection() {
             The <span className="text-[#c8282d]">Nook</span> Where <span className="text-[#c8282d]">Cravings</span> Win.
           </h1>
           <p className="font-inter mt-6 max-w-xl mx-auto md:mx-0 text-lg text-gray-700 leading-relaxed">
-            This is your new flavor frontier. We're slinging seriously delicious food that mash up world fast food with the classics you crave. Shareable, stackable, and seriously addictive food cooked for your crew.
+            This is your new flavor frontier. We&apos;re slinging seriously delicious food that mash up world fast food with the classics you crave. Shareable, stackable, and seriously addictive food cooked for your crew.
           </p>
 
           {/* --- Feature Tags --- */}
