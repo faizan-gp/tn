@@ -11,7 +11,7 @@ import { Menu, X, ChevronRight, Instagram } from 'lucide-react';
 // --- NAVIGATION DATA ---
 const leftNavLinks = [
   { href: '/menu', label: 'Menus' },
-  { href: '/catering', label: 'Catering & Events' },
+  // { href: '/catering', label: 'Catering & Events' },
 ];
 const rightNavLinks = [
   { href: '/delivery', label: 'Delivery' },
@@ -20,12 +20,12 @@ const rightNavLinks = [
 
 // New data for the detailed mobile drawer
 const mainDrawerLinks = [
-  { href: '/location', label: 'Location' },
+  // { href: '/location', label: 'Location' },
   { href: '/menu', label: 'Menus' },
-  { href: '/catering', label: 'Catering & Events' },
+  // { href: '/catering', label: 'Catering & Events' },
 ];
 const secondaryDrawerLinks = [
-    { href: '/gift-cards', label: 'Gift Cards' },
+    // { href: '/gift-cards', label: 'Gift Cards' },
     { href: '/about', label: 'Our Story' },
 ];
 const footerDrawerLinks = [
@@ -126,7 +126,7 @@ export default function Header() {
               <Image src="/TN-Red.png" alt="Tandoori Nook Logo" width={45} height={45} className="bg-white rounded-full p-1"/>
               <div>
                 <span className="font-extrabold uppercase">Tandoori Nook</span>
-                <span className="block text-xs uppercase tracking-wider">Halal Street Food</span>
+                <span className="block text-xs uppercase tracking-wider">Halal Fast Food</span>
               </div>
             </Link>
             <button

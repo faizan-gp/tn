@@ -14,8 +14,8 @@ const display = Playfair_Display({ subsets: ['latin'], weight: ['700', '800', '9
 const sans = Inter({ subsets: ['latin'], weight: ['400', '600', '700'] });
 
 // Replace with your actual storefront links
-const UBER_EATS_URL = 'https://www.ubereats.com/your-storefront';
-const DOORDASH_URL = 'https://www.doordash.com/store/your-storefront';
+const UBER_EATS_URL = 'https://www.ubereats.com/store/zero-latency-vr-and-cafe-webster-tx/Z_MXwfGGQeSDhCHwMG4ZbQ'
+const DOORDASH_URL = 'https://www.doordash.com/store/34914585';
 
 // ----------
 // SEO (App Router)

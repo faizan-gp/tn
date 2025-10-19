@@ -1,6 +1,10 @@
 import Image from 'next/image';
 import { ShoppingBag, Truck } from 'lucide-react'; // Assuming you have lucide-react installed
 
+// Define provider URLs
+const UBER_EATS_URL = 'https://www.ubereats.com/store/zero-latency-vr-and-cafe-webster-tx/Z_MXwfGGQeSDhCHwMG4ZbQ';
+const DOORDASH_URL = 'https://www.doordash.com/store/34914585';
+
 export default function DeliverySection() {
   return (
     <section id="delivery" className="py-16 md:py-24 bg-white text-slate-800">
@@ -41,7 +45,9 @@ export default function DeliverySection() {
                 Order ahead online and grab it to go. Perfect for a quick, delicious meal on the move.
               </p>
               <a
-                href="#"
+                href={DOORDASH_URL} // <-- Updated Link
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-inter mt-6 inline-block w-full text-center font-bold bg-amber-500 text-white px-6 py-3 rounded-lg hover:bg-amber-600 transition-colors shadow-md"
               >
                 Order for Pickup
@@ -61,13 +67,17 @@ export default function DeliverySection() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <a
-                  href="#"
+                  href={UBER_EATS_URL} // <-- Updated Link
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="font-inter w-full text-center font-bold bg-white text-slate-800 px-6 py-3 rounded-lg hover:bg-slate-200 transition-colors"
                 >
                   UberEats
                 </a>
                 <a
-                  href="#"
+                  href={DOORDASH_URL} // <-- Updated Link
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="font-inter w-full text-center font-bold bg-white text-slate-800 px-6 py-3 rounded-lg hover:bg-slate-200 transition-colors"
                 >
                   DoorDash
